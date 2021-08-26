@@ -1,12 +1,17 @@
 import React from "react";
-import "./assets/scss/style.scss";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-function App() {
+import "assets/scss/style.scss";
+import { LandingPage } from "./pages";
+
+const App = () => {
   return (
     <div className="App">
-      <p>Hello World</p>
+      <Router>
+        <Route path="/" component={LandingPage}></Route>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;
