@@ -48,6 +48,12 @@
     color: $indigo;
 }
 
+
+.image-hero{
+    width: 520px;
+    height: 410px;
+}
+
 header {
     border-bottom: 1px solid $gray-200;
     width: 100%;
@@ -67,6 +73,7 @@ header {
                             text-decoration: underline;
                             color: $indigo;
                         }
+                        
                     }
                 }
             }
