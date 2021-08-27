@@ -9,7 +9,7 @@ import formatNumber from "utils/number";
 const Hero = (props) => {
   const showMostPicked = () => {
     window.scrollTo({
-      top: props.refMostPicked.current.offserTop - 30,
+      top: props.refMostPicked.current + 600,
       behavior: "smooth",
     });
   };
@@ -26,7 +26,7 @@ const Hero = (props) => {
             We provide what you need to enjoy your holiday with family. Time to
             make another memorable moments.
           </p>
-          <button
+          <Button
             className="btn px-5"
             hasShadow
             isPrimary
@@ -34,7 +34,7 @@ const Hero = (props) => {
             style={{ marginBottom: 35 }}
           >
             Show Me
-          </button>
+          </Button>
           <div className="row mt-5">
             <div className="col-auto" style={{ marginRight: 35 }}>
               <img

@@ -1,14 +1,20 @@
 import React from "react";
 
-import { Header, Hero, MostPicked } from "components";
+import { Categories, Header, Hero, MostPicked } from "components";
 import landingPage from "json/landingPage.json";
 
 const LandingPage = (props) => {
+  const refMostPicked = React.createRef();
+
   return (
     <>
       <Header {...props}></Header>
-      <Hero data={landingPage.hero}></Hero>
-      <MostPicked data={landingPage.mostPicked}></MostPicked>
+      <Hero refMostPicked={refMostPicked} data={landingPage.hero}></Hero>
+      <MostPicked
+        refMostPicked={refMostPicked}
+        data={landingPage.mostPicked}
+      ></MostPicked>
+      <Categories data={landingPage.categories}></Categories>
     </>
   );
 };
