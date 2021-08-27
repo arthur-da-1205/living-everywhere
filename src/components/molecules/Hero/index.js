@@ -4,17 +4,14 @@ import { IcCities, IcTraveler, IcTreasure } from "assets/icons";
 import { ImageHero, ImageFrame } from "assets/images";
 import { Button } from "components/atoms";
 
+import formatNumber from "utils/number";
+
 const Hero = (props) => {
   const showMostPicked = () => {
     window.scrollTo({
       top: props.refMostPicked.current.offserTop - 30,
       behavior: "smooth",
     });
-  };
-
-  const numberFormatter = (number) => {
-    const formatNumberring = new Intl.NumberFormat("id_ID");
-    return formatNumberring.format(number);
   };
 
   return (
@@ -29,7 +26,7 @@ const Hero = (props) => {
             We provide what you need to enjoy your holiday with family. Time to
             make another memorable moments.
           </p>
-          <Button
+          <button
             className="btn px-5"
             hasShadow
             isPrimary
@@ -37,7 +34,7 @@ const Hero = (props) => {
             style={{ marginBottom: 35 }}
           >
             Show Me
-          </Button>
+          </button>
           <div className="row mt-5">
             <div className="col-auto" style={{ marginRight: 35 }}>
               <img
@@ -47,8 +44,7 @@ const Hero = (props) => {
                 alt={`${props.data.travelers} Travelers`}
               />
               <h6 className="mt-3">
-                {props.data.travelers}
-                {""}
+                {formatNumber(props.data.travelers)}{" "}
                 <span className="text-gray-500 font-weight-light">
                   Travelers
                 </span>
@@ -62,8 +58,7 @@ const Hero = (props) => {
                 alt={`${props.data.treasures} Treasures`}
               />
               <h6 className="mt-3">
-                {props.data.treasures}
-                {""}
+                {formatNumber(props.data.treasures)} {""}
                 <span className="text-gray-500 font-weight-light">
                   Treasures
                 </span>
@@ -77,8 +72,7 @@ const Hero = (props) => {
                 alt={`${props.data.cities} Cities`}
               />
               <h6 className="mt-3">
-                {props.data.cities}
-                {""}
+                {formatNumber(props.data.cities)} {""}
                 <span className="text-gray-500 font-weight-light">Cities</span>
               </h6>
             </div>

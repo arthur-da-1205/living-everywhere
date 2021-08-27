@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Header, Hero } from "components";
+import { Header, Hero, MostPicked } from "components";
 import landingPage from "json/landingPage.json";
 
 const LandingPage = (props) => {
@@ -8,6 +8,7 @@ const LandingPage = (props) => {
     <>
       <Header {...props}></Header>
       <Hero data={landingPage.hero}></Hero>
+      <MostPicked data={landingPage.mostPicked}></MostPicked>
     </>
   );
 };
