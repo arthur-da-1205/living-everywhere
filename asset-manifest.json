@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/living-everywhere/static/css/main.087ea0a7.chunk.css",
+    "main.js": "/living-everywhere/static/js/main.699e3820.chunk.js",
+    "main.js.map": "/living-everywhere/static/js/main.699e3820.chunk.js.map",
+    "runtime-main.js": "/living-everywhere/static/js/runtime-main.c1515e9a.js",
+    "runtime-main.js.map": "/living-everywhere/static/js/runtime-main.c1515e9a.js.map",
+    "static/js/2.45020c69.chunk.js": "/living-everywhere/static/js/2.45020c69.chunk.js",
+    "static/js/2.45020c69.chunk.js.map": "/living-everywhere/static/js/2.45020c69.chunk.js.map",
+    "static/js/3.4f10bc43.chunk.js": "/living-everywhere/static/js/3.4f10bc43.chunk.js",
+    "static/js/3.4f10bc43.chunk.js.map": "/living-everywhere/static/js/3.4f10bc43.chunk.js.map",
+    "index.html": "/living-everywhere/index.html",
+    "static/css/main.087ea0a7.chunk.css.map": "/living-everywhere/static/css/main.087ea0a7.chunk.css.map",
+    "static/js/2.45020c69.chunk.js.LICENSE.txt": "/living-everywhere/static/js/2.45020c69.chunk.js.LICENSE.txt",
+    "static/media/frame.7b1bcbbd.jpg": "/living-everywhere/static/media/frame.7b1bcbbd.jpg",
+    "static/media/ic_cities.ffed2996.svg": "/living-everywhere/static/media/ic_cities.ffed2996.svg",
+    "static/media/ic_traveler.63b43d51.svg": "/living-everywhere/static/media/ic_traveler.63b43d51.svg",
+    "static/media/ic_treasure.ef9907bf.svg": "/living-everywhere/static/media/ic_treasure.ef9907bf.svg",
+    "static/media/picture.b7ba65e2.jpg": "/living-everywhere/static/media/picture.b7ba65e2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1515e9a.js",
+    "static/js/2.45020c69.chunk.js",
+    "static/css/main.087ea0a7.chunk.css",
+    "static/js/main.699e3820.chunk.js"
+  ]
+}
